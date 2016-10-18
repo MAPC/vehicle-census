@@ -20,27 +20,63 @@
 			<header id="header">
 				<h1>MA Vehicle Census</h1>
 				<p>
-					The Massachusetts Vehicle Census catalogs information about nearly every vehicle registered in the Commonwealth of Massachusetts from 2009 to 2014, while protecting personally identifiable information.
+					The Massachusetts Vehicle Census catalogs information about nearly every vehicle registered in the Commonwealth from 2009 to 2014, while protecting personally identifiable information.
 				</p>
 				<p>
 					This data product supports analyses of the factors that influence patterns of auto ownership and use, and helps to track the impact of policies which promote sustainable transportation.
 				</p>
 				<p>
-					Coming soon from <a href="http://mapc.org">MAPC</a>. Please check here for updates.
+					Coming soon from <a href="http://mapc.org">MAPC</a>. Please sign up for updates.
 				</p>
 			</header>
 
-		<!-- Signup Form -->
-		<!-- 	<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign up for updates" />
-			</form>
+			<!-- Signup Form -->
+			<!--Begin CTCT Sign-Up Form-->
+			<!-- EFD 1.0.0 [Tue Oct 18 11:17:52 EDT 2016] -->
 
-			<p>
-				We will send you one or two emails when we release the product,
-				<br/>
-				and will not use your email address for any other purpose.
-			</p> -->
+			<div class="ctct-embed-signup">
+			  <div>
+			    <span id="success_message" style="display:none;">
+			      <div>
+			      	Thank you for signing up.
+			      	<br/>
+			      	We will be in touch when we release the product.
+			      </div>
+			    </span>
+
+			    <form data-id="embedded_signup:form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
+			      <!-- The following code must be included to ensure your sign-up form works properly. -->
+			      <input data-id="ca:input" type="hidden" name="ca" value="a26956dd-791e-4beb-9bda-ee1b7b87c504">
+			      <input data-id="list:input" type="hidden" name="list" value="1568994711">
+			      <input data-id="source:input" type="hidden" name="source" value="EFD">
+			      <input data-id="required:input" type="hidden" name="required" value="list,email">
+			      <input data-id="url:input" type="hidden" name="url" value="">
+
+			      <p data-id="Email Address:p" >
+			        <label data-id="Email Address:label" data-name="email" class="ctct-form-required">
+			          Email Address
+			        </label>
+			        <input data-id="Email Address:input" type="text" name="email" value="" maxlength="80">
+			      </p>
+
+			      <button type="submit" class="Button ctct-button Button--block Button-secondary" data-enabled="enabled">
+			        Sign up for updates
+			      </button>
+
+			      <div>
+			      	<br/>
+			        <p class="ctct-form-footer">
+								We will send you one or two emails when we release the product,
+								and will not use your email address for any other purpose.
+								<a href="http://www.constantcontact.com/legal/privacy-statement" target="_blank">
+			            See MAPC's Email Privacy Policy for more.
+			          </a>
+							</p>
+			      </div>
+			    </form>
+			  </div>
+			</div>
+			<!--End CTCT Sign-Up Form-->
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -62,6 +98,16 @@
 		<!-- Scripts -->
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script type='text/javascript'>
+			   var localizedErrMap = {};
+			   localizedErrMap['required'] = 'This field is required.';
+			   localizedErrMap['ca'] = 'An unexpected error occurred while attempting to send email.';
+			   localizedErrMap['email'] = 'Please enter your email address in name@email.com format.';
+			   localizedErrMap['generic'] = 'This field is invalid.';
+			   localizedErrMap['shared'] = 'Sorry, we could not complete your sign-up. Please contact us to resolve this.';
+			   var postURL = 'https://visitor2.constantcontact.com/api/signup';
+			</script>
+			<script type='text/javascript' src='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/js/signup-form.js'></script>
 
 	</body>
 </html>
